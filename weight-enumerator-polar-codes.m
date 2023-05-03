@@ -4,9 +4,7 @@
 %
 % Redistribution and use in source and binary forms, with or without modification, 
 % are permitted provided that:
-% the source code retains the above copyright notice, and te redistribtuion condition.
-% 
-% Freely distributed for educational and research purposes
+% the source code retains the above copyright notice, and the redistribtuion condition.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
