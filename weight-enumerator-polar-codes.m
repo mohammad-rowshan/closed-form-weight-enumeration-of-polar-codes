@@ -1,3 +1,15 @@
+% Weight Enumeration of Polar Codes: First two smallest weights %%%%%%%%%%%%%%%%%%%%%
+% Copyright (c) 2023, Mohammad Rowshan, Vlad-Florin Dragoi, and Jinhong Yuan
+% All rights reserved.
+%
+% Redistribution and use in source and binary forms, with or without modification, 
+% are permitted provided that:
+% the source code retains the above copyright notice, and te redistribtuion condition.
+% 
+% Freely distributed for educational and research purposes
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 n = 7
 N = 2^n;            % Code length
 R = 0.5;            % Code rate
