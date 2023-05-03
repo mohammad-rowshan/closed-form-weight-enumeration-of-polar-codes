@@ -1,4 +1,4 @@
-% Weight Enumeration of Polar Codes: First two smallest weights %%%%%%%%%%%%%%%%%%%%%
+% Weight Enumeration of Polar Codes: First two smallest weights %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Copyright (c) 2023, Mohammad Rowshan, Vlad-Florin Dragoi, and Jinhong Yuan
 % All rights reserved.
 %
