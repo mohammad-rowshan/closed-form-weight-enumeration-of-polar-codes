@@ -1,11 +1,10 @@
 # Closed-form Weight Enumeration of Polar Codes
-The MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes. These two weights are the smallest weights of polar codes. These two weights are probably the most important weights as they are dominant in computing the union bound (the upper bound for block error rate). 
-
-$P_e^{ML} \leq A_{w_{min}} Q(\sqrt{2w_{min}\cdot R \cdot E_b/N_0}) + A_{1.5w_{min}} Q(\sqrt{2\cdot 1.5w_{min}\cdot R \cdot E_b/N_0}) + \sum_{w=2w_{min}}^{N} A_w  Q(\sqrt{2w\cdot R \cdot E_b/N_0})$
+The MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes and gives the followings: 
 
 $w = [ w_{min}, 1.5w_{min} ]$
-
 $A_w = [ A_{w_{min}}, A_{1.5w_{min}} ]$
+
+These two weights are the smallest weights of polar codes. These two weights are probably the most important weights as they are dominant in computing the union bound (the upper bound for block error rate). 
 
 The algorithm is super fast because the computation is based on closed form expressions.
 
