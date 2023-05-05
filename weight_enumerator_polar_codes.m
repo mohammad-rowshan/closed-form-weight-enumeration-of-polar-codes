@@ -6,7 +6,7 @@
 % provided that: % the source code retains the above copyright notice, and the redistribtuion condition.
 %
 % weight_enum function Inputs/Outputs%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Refernce: https://arxiv.org/abs/2305.02921
+% Reference: https://arxiv.org/abs/2305.02921
 % M. Rowshan, V.F. Dragoi, and J. Yuan, “On the Closed-form Weight Enumeration of Polar Codes: 1.5d-weight Codewords”, preprint, 2023. arXiv:2305.02921
 % Inputs:
 % I: Indices of K-most relaible bit-channels, allocated for information bits
