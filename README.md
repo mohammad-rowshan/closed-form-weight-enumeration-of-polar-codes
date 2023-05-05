@@ -1,5 +1,5 @@
 # Closed-form Weight Enumeration of Polar Codes
-This MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes in no time and gives the followings: 
+This MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of decreasing monomial codes including polar codes and Read-Muller in no time and returns the followings: 
 
 $w = [ w_{min}, 1.5w_{min} ]$
 
@@ -14,7 +14,7 @@ The algorithm is super fast because the computation is based on closed form expr
 - n: $\log_2N$ where $N$ is the code length
 
 ## Outputs: 
-- r: the magimum degree of monoials. minimum distance = $2^{n-r}$. 
+- r: the magimum degree of monomials. minimum distance = $2^{n-r}$. 
 - w: a vector indicating the minimum weight $w_{min}$ and $1.5w_{min}$ of the code.
 - A_w: a vector containing the multiplicities of codewords with weights w_min and $1.5w_{min}$, correspoding to output $w$.
 - A: a matrix showing the breakdown of cosets/subgroups generating 1.5w_min-weight codewords. For details, see Table I in https://arxiv.org/abs/2305.02921
