@@ -47,7 +47,7 @@ function [r,w, A_w, A] = weight_enum(I,n)
                 alpha = (foh(2)>goh(2) & goh(2)>foh(1)) + (goh(1)>foh(1));
                 A_fg = 2^(r+2 + lambda(h,h) + lambda(f,foh) + lambda(g,goh) - alpha);
                 A_w(2) = A_w(2) + A_fg; 
-                A = [A; [i,j,h-1,foh-1,goh-1,alpha,A_fg]]; % Provides
+                A = [A; [i,j,h-1,foh-1,goh-1,alpha,A_fg]]; % You can comment it oout if you don't need it.
             end
         end
     end
