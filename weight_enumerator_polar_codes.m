@@ -1,12 +1,13 @@
-% Weight Enumeration of Polar Codes: First two smallest weights %%%%%%%%%%%%%%%%%%%%%%%%%%
+% Weight Enumeration of Polar Codes: First two smallest weights %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Copyright (c) 2023, Mohammad Rowshan, Vlad-Florin Dragoi, and Jinhong Yuan
 % All rights reserved.
 %
-% Redistribution and use in source and binary forms, with or without modification, 
-% are permitted provided that:
-% the source code retains the above copyright notice, and the redistribtuion condition.
+% Redistribution and use in source and binary forms, with or without modification are permitted 
+% provided that: % the source code retains the above copyright notice, and the redistribtuion condition.
 %
-% weight_enum function Inputs/Outputs%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% weight_enum function Inputs/Outputs%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Refernce: https://arxiv.org/abs/2305.02921
+% M. Rowshan, V.F. Dragoi, and J. Yuan, “On the Closed-form Weight Enumeration of Polar Codes: 1.5d-weight Codewords”, preprint, 2023. arXiv:2305.02921
 % Inputs:
 % I: Indices of K-most relaible bit-channels, allocated for information bits
 % n: log2(N) where N is the code length
@@ -17,7 +18,7 @@
 % w_min and 1.5*w_min, correspoding to output w.
 % A: a matrix showing the breakdown of cosets/subgroups generating
 % 1.5w_min-weight codewords. For details, see Table I in https://arxiv.org/abs/2305.02921
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 n = 7
 N = 2^n;            % Code length
