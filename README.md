@@ -10,8 +10,8 @@ These two weights are the smallest weights of polar codes and probably the most 
 The algorithm is super fast because the computation is based on closed form expressions ith complexity of order $O(|\mathcal{I}_r|^2\cdot r)$.
 
 ## Inputs:
-- $I$: Indices of $K$-most relaible bit-channels, allocated for information bits
-- $n$: $\log_2N$ where $N$ is the code length
+- I: Indices of $K$-most relaible bit-channels, allocated for information bits
+- n: $\log_2N$ where $N$ is the code length
 
 ## Outputs: 
 - r: the magimum degree of monomials. minimum distance = $2^{n-r}$. 
