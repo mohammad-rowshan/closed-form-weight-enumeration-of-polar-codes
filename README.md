@@ -6,9 +6,8 @@ I: Indices of K-most relaible bit-channels, allocated for information bits
 
 n: log2(N) where N is the code length
 
-#Outputs:
+#Outputs: 
 r: the magimum degree of monoials. minimum distance = 2^(n-r). 
-
 w: a vector indicating the minimum weight (w_min) and 1.5w_min.
 
 A_w: a vector containing the multiplicities of codewords with weights w_min and 1.5w_min, correspoding to output w.
