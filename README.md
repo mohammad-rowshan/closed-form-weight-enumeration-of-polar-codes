@@ -11,7 +11,7 @@ The algorithm is super fast because the computation is based on closed form expr
 
 ## Inputs:
 - I: Indices of $K$-most relaible bit-channels, allocated for information bits
-- n: $\log_2N$ where N is the code length
+- n: $\log_2N$ where $N$ is the code length
 
 ## Outputs: 
 - r: the magimum degree of monoials. minimum distance = $2^{n-r}$. 
