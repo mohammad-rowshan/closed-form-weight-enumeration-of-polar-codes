@@ -22,6 +22,6 @@ The algorithm is super fast because the computation is based on closed form expr
 ---
 This script showcases the results in the paper below:
 
-M. Rowshan, V-F Dragoi, and J. Yuan, “On the Closed-form Weight Enumeration of Polar Codes: 1.5d-weight Codewords”, preprint, 2023. arXiv:2305.02921
+M. Rowshan, V.F. Dragoi, and J. Yuan, “On the Closed-form Weight Enumeration of Polar Codes: 1.5d-weight Codewords”, preprint, 2023. arXiv:2305.02921
 
 Please report any bugs to mrowshan at ieee dot org
