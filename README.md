@@ -2,8 +2,8 @@
 The MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes. These two weights are the smallest weights of polar codes. The algorithm is super fast because the computation is based on closed form expressions.
 
 ## Inputs:
-- I: Indices of K-most relaible bit-channels, allocated for information bits
-- n: log2(N) where N is the code length
+- I: Indices of $K$-most relaible bit-channels, allocated for information bits
+- n: $\log_2N$ where N is the code length
 
 ## Outputs: 
 - r: the magimum degree of monoials. minimum distance = $2^{n-r}$. 
