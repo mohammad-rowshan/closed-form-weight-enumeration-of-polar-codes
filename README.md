@@ -1,5 +1,5 @@
 # Closed-form Weight Enumeration of Polar Codes
-The MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes and gives the followings: 
+This MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes in no time and gives the followings: 
 
 $w = [ w_{min}, 1.5w_{min} ]$
 
