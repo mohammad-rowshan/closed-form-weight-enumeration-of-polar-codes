@@ -5,9 +5,9 @@ $w = [ w_{min}, 1.5w_{min} ]$
 
 $A_w = [ A_{w_{min}}, A_{1.5w_{min}} ]$
 
-These two weights are the smallest weights of polar codes. These two weights are probably the most important weights as they are dominant in computing the union bound (the upper bound for block error rate). 
+These two weights are the smallest weights of polar codes and probably the most important weights as they are dominant in computing the union bound (the upper bound for block error rate). 
 
-The algorithm is super fast because the computation is based on closed form expressions.
+The algorithm is super fast because the computation is based on closed form expressions ith complexity of order $O(|\mathcal{I}_r|^2\cdot r)$.
 
 ## Inputs:
 - I: Indices of $K$-most relaible bit-channels, allocated for information bits
