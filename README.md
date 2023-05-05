@@ -6,9 +6,9 @@ The MATLAB script enumerates the minimum weight and 1.5 times minimum weight cod
 - n: log2(N) where N is the code length
 
 ## Outputs: 
-- r: the magimum degree of monoials. minimum distance = 2^(n-r). 
-- w: a vector indicating the minimum weight ($w_{min}$) and 1.5w_min.
-- A_w: a vector containing the multiplicities of codewords with weights w_min and 1.5w_min, correspoding to output w.
+- r: the magimum degree of monoials. minimum distance = $2^{n-r}$. 
+- w: a vector indicating the minimum weight $w_{min}$ and $1.5w_{min}$ of the code.
+- A_w: a vector containing the multiplicities of codewords with weights w_min and $1.5w_{min}$, correspoding to output $w$.
 - A: a matrix showing the breakdown of cosets/subgroups generating 1.5w_min-weight codewords. For details, see Table I in https://arxiv.org/abs/2305.02921
 
 This script showcases the results in the paper below:
