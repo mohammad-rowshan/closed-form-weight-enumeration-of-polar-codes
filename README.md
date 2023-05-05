@@ -2,6 +2,7 @@
 The MATLAB script enumerates the minimum weight and 1.5 times minimum weight codewords of polar codes and gives the followings: 
 
 $w = [ w_{min}, 1.5w_{min} ]$
+
 $A_w = [ A_{w_{min}}, A_{1.5w_{min}} ]$
 
 These two weights are the smallest weights of polar codes. These two weights are probably the most important weights as they are dominant in computing the union bound (the upper bound for block error rate). 
