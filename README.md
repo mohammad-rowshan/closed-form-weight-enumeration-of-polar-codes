@@ -26,6 +26,6 @@ This script showcases the results in the paper below:
 
 Please report any bugs to mrowshan at ieee dot org
 
-# A Complete Script for all weights less then $2w_{\min} here:
+# An Script for all weights less then $2w_{\min}$ here:
 
-[https://github.com/mohammad-rowshan/Weight-Distribution-of-Polar-Codes/tree/main/Closed-form%20Formulas]
+https://github.com/mohammad-rowshan/Weight-Distribution-of-Polar-Codes/tree/main/Closed-form%20Formulas
