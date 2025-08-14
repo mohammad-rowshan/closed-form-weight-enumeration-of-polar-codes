@@ -25,3 +25,7 @@ This script showcases the results in the paper below:
 - M. Rowshan, V.F. Dragoi, and J. Yuan, “On the Closed-form Weight Enumeration of Polar Codes: 1.5d-weight Codewords”, preprint, 2023. arXiv:2305.02921
 
 Please report any bugs to mrowshan at ieee dot org
+
+# A Complete Script for all weights less then $2w_{\min} here:
+
+[https://github.com/mohammad-rowshan/Weight-Distribution-of-Polar-Codes/tree/main/Closed-form%20Formulas]
